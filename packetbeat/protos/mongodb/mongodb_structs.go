@@ -105,6 +105,7 @@ var opCodeNames = map[opCode]string{
 	2005: "OP_GET_MORE",
 	2006: "OP_DELETE",
 	2007: "OP_KILL_CURSORS",
+	2008: "OP_NOT_FOUND",
 }
 
 func validOpcode(o opCode) bool {
